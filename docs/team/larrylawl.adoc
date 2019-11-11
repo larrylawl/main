@@ -13,6 +13,7 @@ endif::[]
 ifdef::env-github[]
 image::InsurelyticsLogo.png[width="250"]
 endif::[]
+
 == Overview
 Insurelytics is a desktop client management application for insurance agents.
 Insurelytics facilitates the tracking of client and policies, and also generate statistical analytics to provide insights for the agent.
@@ -38,14 +39,6 @@ The OOP solution is illustrated in the link:../DeveloperGuide.adoc[developer’s
 ** *Controller*: [https://github.com/AY1920S1-CS2103-F09-4/main/blob/master/src/main/java/seedu/address/ui/DisplayController.java[Display Controller]][https://github.com/AY1920S1-CS2103-F09-4/main/blob/master/src/main/java/seedu/address/ui/AxisController.java[Axis Controller]][https://github.com/AY1920S1-CS2103-F09-4/main/blob/master/src/main/java/seedu/address/ui/PieChartController.java[Piechart Controller]][https://github.com/AY1920S1-CS2103-F09-4/main/blob/master/src/main/java/seedu/address/ui/LineChartController.java[Linechart Controller]]
 ** *Command*: [https://github.com/AY1920S1-CS2103-F09-4/main/blob/master/src/main/java/seedu/address/logic/commands/DisplayCommand.java[Display Command]][https://github.com/AY1920S1-CS2103-F09-4/main/blob/master/src/main/java/seedu/address/logic/parser/DisplayCommandParser.java[Display Command Parser]]
 * *Test Code Contributed*: [https://github.com[Display Command Test]][https://github.com[Display Command Parser Test]][https://github.com/AY1920S1-CS2103-F09-4/main/blob/master/src/test/java/seedu/address/model/ModelManagerTest.java[Model Manager Test]]
-
-ifndef::env-github[]
-image::PolicyPopBreakdown.png[width="800", align="left"]
-endif::[]
-
-ifdef::env-github[]
-image::PolicyPopBreakdown.png[width="800", align="left"]
-endif::[]
 
 * *Minor enhancement*:
 *** Save policies into JSON. Policy data needs to persist across usage of application. [Pull request https://github.com/AY1920S1-CS2103-F09-4/main/pull/81[#81]]

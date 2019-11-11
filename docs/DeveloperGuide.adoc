@@ -257,7 +257,7 @@ then casts the model’s data type to the data type supported by bar charts. The
 
 The following sequence diagram shows the interaction between UI, Controller and Model for steps 2 and 3:
 
-image::DisplaySequenceDiagram.png[]
+image::DisplaySequenceDiagram.png[width=400]
 
 Step 4. The bar chart controller then sets all the attributes of its associated FXML.
 
@@ -265,7 +265,7 @@ Step 5. Finally, the `MainWindow` calls `DisplayController#getRoot()` and displa
 
 The following activity diagram summarizes what happens when a user executes the display command:
 
-image::DisplayActivityDiagram.png[]
+image::DisplayActivityDiagram.png[width=150]
 
 ==== Design Considerations
 ===== Aspect: How should controllers interact with model
